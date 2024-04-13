@@ -1,0 +1,25 @@
+---
+manufacturer: Ruckus
+model: T350se
+slug: ruckus-t350se
+part_number: 901-T350-WW51
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 2.2
+weight_unit: kg
+comments: '[Ruckus T350se Datasheet](https://www.commscope.com/globalassets/digizuite/914609-ds-ruckus-t350.pdf)'
+interfaces:
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: WiFi
+    type: ieee802.11ax
+console-ports:
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: DC
+    type: dc-terminal
+    maximum_draw: 20
